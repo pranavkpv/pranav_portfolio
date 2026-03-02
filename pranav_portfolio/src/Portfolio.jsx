@@ -226,7 +226,7 @@ export default function Portfolio() {
                             {/* Image Container */}
                             <div className="relative bg-gradient-to-br from-gray-900 to-black p-2 rounded-3xl border border-white/10">
                                 <img
-                                    src="public\pranav_portfolio.jpg"
+                                    src="/pranav_portfolio.jpg"
                                     alt="Pranav Raj K P V"
                                     className="rounded-2xl w-full h-auto object-cover"
                                 />

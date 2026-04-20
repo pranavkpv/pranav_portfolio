@@ -28,7 +28,7 @@ export default function Portfolio() {
             description: "Comprehensive ERP platform for construction companies with real-time tracking, budget management, and live communication.",
             features: ["Live project tracking", "Material procurement & labor management", "Real-time chat with Socket.IO", "AWS deployment"],
             tech: ["Node.js", "Express.js", "TypeScript", "MongoDB", "React.js", "Tailwind CSS", "Redux", "Clean Architecture", "AWS", "Socket.IO"],
-            liveLink: "https://build-front-erp.tastetrial.info",
+            liveLink: "https://build-erp.vercel.app",
             githubLink: "https://github.com/pranavkpv/buildErp",
             gradient: "from-amber-500 via-orange-500 to-red-500"
         },
@@ -38,7 +38,7 @@ export default function Portfolio() {
             description: "Full-stack food delivery platform enabling restaurants to list menus and users to order and track meals online.",
             features: ["Cart & wishlist", "Order tracking", "Razorpay integration", "Admin panel"],
             tech: ["Node.js", "Express.js", "JavaScript", "MongoDB", "EJS", "Bootstrap", "AWS EC2", "NGINX", "PM2"],
-            liveLink: "https://tastetrial.info/user/load",
+            liveLink: null,
             githubLink: "https://github.com/pranavkpv/Taste_Trial",
             gradient: "from-emerald-500 via-teal-500 to-cyan-500"
         },
@@ -118,7 +118,7 @@ export default function Portfolio() {
     // Function to download resume
     const handleDownloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/PRANAV_RAJ_KPV_RESUME.pdf'; // ✅ correct path
+        link.href = '/PRANAV_RAJ_KPV_RESUME.pdf'; 
         link.download = 'Pranav_Raj_KPV_Resume.pdf';
     
         document.body.appendChild(link);
